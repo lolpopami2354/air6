@@ -1,0 +1,23 @@
+VALIDATION PERFORMED
+- Node.js syntax check of the complete expanded inline JavaScript: PASS.
+- Headless Chromium, real localhost HTTP page load: PASS.
+- Original home preview initializes: PASS, no JavaScript page errors.
+- Tower / original Desert Gateway session: PASS.
+- Ground / new Coastal International session: PASS (2 runways, 12 stands).
+- Shuttle / new Cargo Gateway session: PASS (3 runways, 24 stands).
+- Shuttle enter/exit button enters bus cab: PASS.
+- Rain, overcast, fog, storm and clear presets select/render: PASS.
+- Medical inbound scenario and manual additional arrival: PASS.
+- Tactical air radar creates clickable target data; surface mode opens: PASS.
+- Flight board renders role-visible flights; unmatched search filters to zero: PASS.
+- Tutorial opens and advances: PASS.
+- Original approach clearance accepted and transitions aircraft to APPROACH: PASS.
+- Original pause freezes simulation time: PASS.
+- Expansion reset restores clear weather and disables automatic incidents/touch: PASS.
+- Browser page errors across these checks: NONE.
+- Original backup SHA-256 matches supplied input: PASS.
+
+These are smoke/regression checks, not exhaustive gameplay certification.
+Not tested: physical webcam/microphone, voice recognition permissions, real touch
+hardware, extended-session behavior, every command/state combination, or browser
+engines other than Chromium. Existing scoring/separation behavior was retained.
